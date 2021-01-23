@@ -1,0 +1,78 @@
+body {
+    background-image: url("BackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#Connect {
+    background: url(./img/cnt-bg.png) no-repeat;
+    padding: 2rem 2rem;
+    margin: 3rem 5rem;
+    padding-left: 30px;
+    color: black;
+    margin-top: 20px;
+}
+
+ul {
+    align-items: center;
+}
+
+.Table {
+    color: black;
+}
+
+.connectas-us-area .connectas {
+    background: url(./img/cnt-bg.png) no-repeat;
+    padding: 2rem 2rem;
+    margin: 3rem 5rem;
+}
+
+.connectas-us-area .connectas .connectas-title h4 {
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.connectas-us-area .connectas .connectas-title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.connectas-us-area .connectas form .input-textbox input {
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.connectas-us-area .connectas form .input-textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.connectas-us-area .connectas form .btn-submit button {
+    background: whitesmoke;
+    color: #000;
+    margin-left: 17em;
+    padding: .7rem 2rem;
+}
+
+tr {
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
