@@ -1,7 +1,10 @@
 # portfolio.github.io
 
-Couldn't figure out the problems in font awesome and owl-carousel. 
+! No longer maintained !
 
-Link to images of website:->
+This repo was made to learn github-pages and hosting
 
-https://imgur.com/a/WvInuYh
+
+things to do - Couldn't figure out the problems in font awesome and owl-carousel. 
+
+Link to images of website:-> https://imgur.com/a/WvInuYh
